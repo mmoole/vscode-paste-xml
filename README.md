@@ -10,7 +10,7 @@ There is not much to this extension. It simply makes the following replacements 
  * &lt; to &amp;lt;
 
 ## Keyboard Shortcut
-Use the following to embed a beautify shortcut in keybindings.json. Replace with your preferred key bindings.
+Use the following to embed a xmlPaste shortcut in keybindings.json. Replace with your preferred key bindings.
 
     {
       "key": "ctrl+alt+p",
