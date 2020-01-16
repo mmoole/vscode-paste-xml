@@ -37,3 +37,7 @@ Released.
 ### 0.0.1
 
 Initial release of XML Paste
+
+### 0.0.5
+
+Added note on keyboard shortcut

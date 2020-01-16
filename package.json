@@ -2,7 +2,7 @@
 	"name": "xml-paste",
 	"displayName": "XML Paste",
 	"description": "Paste escaped XML or HTML into a file. It simply replaces angle brackets and ampersands with HTML entities.",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"publisher": "Webucator",
 	"engines": {
 		"vscode": "^1.41.0"
