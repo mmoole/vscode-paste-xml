@@ -21,7 +21,7 @@
 		"type": "git",
 		"url": "https://github.com/WebucatorTraining/vscode-paste-xml"
 	},
-	"icon": "images/icon.png",
+	"icon": "images/icon-128.png",
 	"activationEvents": [
 		"onCommand:extension.xmlPaste"
 	],
