@@ -38,6 +38,6 @@ Released.
 
 Initial release of XML Paste
 
-### 0.0.5
+### 0.5.0
 
 Added note on keyboard shortcut
