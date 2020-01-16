@@ -9,6 +9,15 @@ There is not much to this extension. It simply makes the following replacements 
  * &gt; to &amp;gt;
  * &lt; to &amp;lt;
 
+## Keyboard Shortcut
+Use the following to embed a beautify shortcut in keybindings.json. Replace with your preferred key bindings.
+
+    {
+      "key": "ctrl+alt+p",
+      "command": "extension.xmlPaste",
+      "when": "editorFocus"
+    }
+
 ## Requirements
 
 None
