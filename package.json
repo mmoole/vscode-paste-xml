@@ -31,6 +31,10 @@
 			{
 				"command": "extension.xmlPaste",
 				"title": "XML Paste"
+			},
+			{
+				"command": "extension.xmlPasteUnescaped",
+				"title": "XML Paste Unescaped"
 			}
 		]
 	},

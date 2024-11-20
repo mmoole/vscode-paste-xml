@@ -21,6 +21,26 @@ function pasteEscapedXML() {
 	});
 }
 
+function pasteUnescapedEscapedXML() {
+	vscode.env.clipboard.readText().then((text) => {
+		const activeEditor = vscode.window.activeTextEditor;
+		if (activeEditor && activeEditor.selection && activeEditor.selection.active) {
+			activeEditor.edit((editor) => {
+				let content = text.replace(/\&amp\;/g, '&');
+				content = content.replace(/\&gt\;/g, '>');
+				content = content.replace(/\&lt\;/g, '<');
+				const selection = activeEditor.selection;
+				if (selection.end === selection.start) {
+					editor.insert(selection.active, content);
+				}
+				else {
+					editor.replace(selection, content);
+				}
+			});
+		}
+	});
+}
+
 export function activate(context: vscode.ExtensionContext) {
 
 	let disposable = vscode.commands.registerCommand('extension.xmlPaste', () => {
